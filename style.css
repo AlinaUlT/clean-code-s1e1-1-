@@ -150,8 +150,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-.completed-tasks,
-.task {
+.completed-tasks .task {
     text-decoration: line-through;
     color: #888;
 }
@@ -166,7 +165,6 @@ ul li input[type=text] {
     width:224px;
 }
 
-.edit-mode,
-.task {
+.edit-mode .task {
     display:none;
 }
